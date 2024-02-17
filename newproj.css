@@ -1,0 +1,297 @@
+.hero
+{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(235, 236, 240);
+    margin: 0;
+    padding-top: 80px;
+
+}
+h2{
+    margin: 0;
+}
+.email
+{
+    width: 280px;
+    height: 20px;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    
+}
+p
+{
+    margin: 0;
+}
+.hertxt
+{
+    
+    margin-bottom: 20px;
+}
+.start-button
+{
+    background-color: #f1c40f;
+    font-size: 16px;
+    border: 0;
+    height: 30px;
+    width: 150;
+    border-radius: 2px;
+    padding-right:20px ;
+    padding-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1s;
+    margin-bottom: 120px;
+
+}
+.start-button:hover,.btn:hover
+{
+    background-color: orange;
+}
+.out-box
+{
+    background-color: #ddd;
+    height: 41px;
+    width: 1000px;
+    
+    padding-top: 21px;
+    padding-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+    
+
+}
+.out
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+.txt
+{
+    font-size: 0.9em;
+    color: #444;
+    margin-top: 5px;
+}
+.privacy,.terms,.contact
+{
+    margin-right: 9px;
+    margin-left: 10px;
+    font-size: .95em;
+    text-decoration: 0;
+    color: black;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(235, 236, 240);
+    height: 75px;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo-photo
+{
+    width: 300px;
+    
+}
+.logo
+{
+    flex: 1;
+    padding-left: 50px;
+    
+}
+.nav-elements
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+
+}
+.header a
+{
+    font-size: .95em;
+    text-decoration: 0;
+    color: black;
+}
+.feature1
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.feature1 img
+{
+    width: 50px;
+    vertical-align: top;
+    
+}
+
+.im
+{
+    width: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.tx
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 790px;
+   
+}
+#feature
+{
+    margin-bottom: 70px;
+}
+#video
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#price2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.price-card
+{
+    flex: 1;
+    max-width: 320px;
+    border: #444;
+    border-style:solid ;
+    border-width: 1px;
+    height: 300px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.row1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ddd;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.row2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.row3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    
+    line-height: 25px;
+    padding-bottom: 10px;
+
+}
+.row4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn
+{
+    background-color: #f1c40f;
+    font-size: 16px;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    padding-right:10px ;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: background-color 1s;
+    margin-top: 50px;
+
+}
+@media (max-width:768px) {
+
+#price2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-card
+{
+    width: 500px;
+}
+    
+}
+@media (max-width:665px) {
+
+    .header
+{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(235, 236, 240);
+    height: 150px;
+    align-items: center;
+}
+.nav-elements
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+
+}
+.logo
+{
+    padding-left: 0px;
+    
+}
+        
+}
